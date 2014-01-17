@@ -17,3 +17,5 @@ node_modules
 *.DS_Store
 
 public_html/app/etc/local.xml
+public_html/var/cache
+public_html/var/session
