@@ -13,14 +13,14 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
     // Read package.json file
-    pkg: grunt-file.readJSON('package.json'),
+    pkg: grunt.file.readJSON('package.json'),
 
     compass: {
       dist: {
         options: {
           sassDir: skinDir + 'sass',
           cssDir: skinDir + 'css',
-          environment: 'production',
+          environment: 'production'
         }
       }
     }
