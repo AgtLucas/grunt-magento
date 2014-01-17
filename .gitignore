@@ -15,6 +15,7 @@ npm-debug.log
 node_modules
 
 *.DS_Store
+.sass-cache/
 
 public_html/app/etc/local.xml
 public_html/var/cache
