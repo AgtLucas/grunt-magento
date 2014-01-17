@@ -3,8 +3,8 @@
 module.exports = function(grunt) {
 
   // Skin variables
-  var skinDir = 'theme/skin/frontend/my-theme/default/';
-  var appDir = 'theme/app/design/frontend/my-theme/default/';
+  var skinDir = 'theme/skin/frontend/gm/default/';
+  var appDir = 'theme/app/design/frontend/gm/default/';
 
   // Load Tasks
   require('load-grunt-tasks')(grunt);
@@ -18,13 +18,12 @@ module.exports = function(grunt) {
     compass: {
       dist: {
         options: {
-          sassDir: skinDir + 'scss',
+          sassDir: skinDir + 'sass',
           cssDir: skinDir + 'css',
           environment: 'production',
-          outputStyle: 'compressed'
         }
       }
-    },
+    }
 
   });
 
