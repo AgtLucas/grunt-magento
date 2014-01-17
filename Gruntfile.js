@@ -20,7 +20,8 @@ module.exports = function(grunt) {
         options: {
           sassDir: skinDir + 'sass',
           cssDir: skinDir + 'css',
-          environment: 'production'
+          environment: 'production',
+          outputStyle: 'compressed'
         }
       }
     }
